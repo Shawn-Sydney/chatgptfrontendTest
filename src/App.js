@@ -27,7 +27,7 @@ function App() {
         <button onClick={handleOnclick}>
           test api
         </button>
-        <a>
+        <a href="/">
           {apiState ? serverRes : "Test here"}
         </a>
       </header>
